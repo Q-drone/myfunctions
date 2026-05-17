@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: myfunctions
+Version: 0.2.0
+Summary: A simple package for learning DevOps packaging
+Author-email: A <me@example.com>
+License-Expression: MIT
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"

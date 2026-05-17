@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "myfunctions"
+version = "0.2.0"
+description = "A simple package for learning DevOps packaging"
+readme = "README.md"
+authors = [{ name = "A", email = "me@example.com" }]
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    # List your third-party packages here, e.g. "requests>=2.28"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "black", "flake8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

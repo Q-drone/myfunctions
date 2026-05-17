@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/myhello/__init__.py
+src/myhello/greeter.py
+src/myhello.egg-info/PKG-INFO
+src/myhello.egg-info/SOURCES.txt
+src/myhello.egg-info/dependency_links.txt
+src/myhello.egg-info/requires.txt
+src/myhello.egg-info/top_level.txt
+tests/test_greeter.py
